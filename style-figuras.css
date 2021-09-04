@@ -1,0 +1,144 @@
+header {
+  display: flex;
+  align-items: center;
+  background-color: rgba(43, 172, 223, 0.144);
+  justify-content: center;
+  flex-direction: column;
+}
+
+header p {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.title {
+  font-style: oblique;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-title {
+  padding-right: 2%;
+  height: 6%;
+  width: 6%;
+}
+
+.container-general {
+  display: flex;
+  height: 50vh;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.container-general section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+  padding: 2%;
+  margin-right: 5%;
+  margin-left: 2%;
+  height: auto;
+}
+
+.container-general form {
+  display: flex;
+  flex-direction: column;
+  flex: wrap;
+}
+
+.title-circle {
+  display: flex;
+  direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.title-circle h2 {
+  padding-left: 6px;
+}
+
+.title-square {
+  display: flex;
+  direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.title-square h2 {
+  padding-left: 6px;
+}
+
+.title-triangle {
+  display: flex;
+  direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.title-triangle h2 {
+  padding-left: 6px;
+}
+
+.title-triangle-iso {
+  display: flex;
+  direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.title-triangle-iso h2 {
+  padding-left: 6px;
+}
+
+.container-general label {
+  margin-bottom: 3%;
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="number"] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('https://img.icons8.com/material-outlined/20/000000/double-right.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 40px 6px 40px;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.container-general button {
+  border: none;
+  color: white;
+  background-color: rgb(8, 4, 63);
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button-square {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.button-triangle {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.button-triangle-iso{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}

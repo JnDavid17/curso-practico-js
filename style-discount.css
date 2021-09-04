@@ -1,0 +1,232 @@
+header {
+    display: flex;
+    align-items: center;
+    background-color: rgba(43, 172, 223, 0.144);
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    font-style: italic;
+  }
+  
+  .title {
+
+    font-style: oblique;
+    font-size: 1.3rem;
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+  }
+  .img-title {
+    padding-right: 2%;
+  }
+  
+  .container-general {
+    display: flex;
+    height: 50vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-general section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    padding: 2%;
+    margin-right: 5%;
+    margin-left: 2%;
+    height: auto;
+  }
+  
+  .container-general form {
+    display: flex;
+    flex-direction: column;
+    flex: wrap;
+  }
+
+  
+.product{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.discount{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-right: 6%;
+}
+.discount img{
+  margin-left: -10px;
+  height: 96%;
+  width: 50%;
+}
+
+#discount-title{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+  background-color: rgb(6, 6, 88);
+  border-radius: 100%;
+  height: auto;
+  padding: 7px 4px;
+  width: 7%;
+}
+
+.colors{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 50%;
+}
+.color-black{
+  border-radius: 100%;
+  margin: 5px;
+  background-color:black;
+  width: 20px;
+  height: 20px;
+}
+
+.color-blue{
+  border-radius: 100%;
+  margin: 5px;
+  background-color:rgba(6, 110, 228, 0.972);
+  width: 20px;
+  height: 20px;
+}
+
+.color-pink{
+  border-radius: 100%;
+  margin: 5px;
+  background-color:rgb(173, 85, 151);
+  width: 20px;
+  height: 20px;
+}
+
+
+
+
+.nameAndStorage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#storage{
+  border-style: ridge;
+  padding: 3px;
+  font-weight: lighter;
+  color: rgba(0, 0, 0, 0.534);
+}
+#name{
+    font-size: 1.9rem;
+    margin-top: -5px;
+    margin-bottom: 60px;
+}
+
+
+.serial h3{
+  font-size: 0.9rem;
+  font-weight: lighter;
+}
+
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-style: ridge;
+  width: auto;
+  text-align: center;
+  border-radius: 10px;
+  height: 40px;
+  padding: 0px 10px;
+  font-size: 0.9rem;
+}
+
+.details h3{
+  font-weight: lighter;
+  font-size: 0.9rem;
+}
+.details img{
+  width: 27px;
+  margin-right: 5px;
+}
+
+.price{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 30%;
+}
+
+.price #save{
+  color: rgb(69, 129, 168);
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+#status-product{
+  margin-top: -5px;
+  font-size: 1.8rem;
+  font-weight: lighter;
+}
+  
+#originalPrice{
+  font-size: 1.1rem;
+  font-weight: lighter;
+  color: rgb(134, 129, 129);
+ text-decoration-line: line-through;
+}
+
+#discountedPrice{
+  margin-top: -5px;
+  font-size: 1.8rem;
+}
+
+  .container-general label {
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('https://img.icons8.com/material-outlined/20/000000/double-right.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 40px 6px 40px;
+  }
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+  }
+  
+  .container-general button {
+    border: none;
+    color: white;
+    background-color: rgb(8, 4, 63);
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+  

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-statistics.css">
+    <title>Document</title>
+</head>
+<header>
+    <div class="title">
+        <img class="img-title" src="https://img.icons8.com/dotty/55/000000/discount.png"/>
+        <h1>
+            Statistics
+        </h1>
+    </div>
+    <p> This is the third Javascript practice workshop course</p>
+</header>
+<body>
+    <div class="container-general">
+        <section class="text">
+            <h2> Calculate price to pay of your discounted products</h2>
+    
+            <label>
+                Write the list (separated with commas)
+                <input id="InputList" type="text">
+            </label>
+        </section>
+        <section class="buttons-container">
+            <button type="button" id="calculateMedian">
+                Calculate median
+            </button>
+
+            <button type="button" id="calculateAverage">
+                Calculate average
+            </button>
+
+            <button type="button" id="calculateMode">
+                Calculate mode
+            </button>
+        </section>
+    </div>
+        <div class="results">
+            <section class="mode" id="mode-id">
+                <h1>Mode of the list</h1>
+                <h2 id="showMode"></h2>
+            </section>
+
+            <section class="Average" id="average-id">
+                <h1>Average of the list</h1>
+                <h2 id="showAverage"></h2>
+            </section>
+
+            <section class="Median" id="median-id">
+                <h1>Median of the list</h1>
+                <h2 id="showMedian"></h2>
+            </section>
+        </div>
+    <script src="statistics.js"></script>
+</body>
+</html>

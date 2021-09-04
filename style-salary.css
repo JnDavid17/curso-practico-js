@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+  }
+  
+  header {
+      display: flex;
+      align-items: center;
+      background-color: rgba(43, 172, 223, 0.144);
+      width: 100vw;
+      height: 100px;
+      justify-content: center;
+      flex-direction: column;
+    }
+    
+    header p {
+      font-size: 1.2rem;
+      font-style: italic;
+    }
+    
+    .title {
+      font-style: oblique;
+      font-size: 1.3rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .img-title {
+      padding-right: 2%;
+      height: 6%;
+      width: 6%;
+    }
+    
+  
+    .container-general {
+      flex-direction: column;
+      display: flex;
+      height: 90vh;
+      align-items: center;
+    }
+  
+  
+    .container-general form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    
+  
+    .form{
+      min-height: 50vh;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 100vw;
+      flex-wrap: wrap;
+      margin-bottom: 50px;
+      margin-top: 50px;
+    }
+  
+  
+  
+  
+    .container-general label {
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .results{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  
+    .results h2{
+      font-style:oblique ;
+      color: rgb(112, 43, 3);
+    }
+  
+    .resultCompound{
+      display: flex;
+      justify-content: space-evenly;
+      font-size: 1.2rem;
+      color: rgba(1, 13, 14, 0.623);
+      width: 1000px;
+      text-align: center;
+    }
+  
+    .resultCompound h1 {
+      color: black;
+      font-size: 1.8rem;
+    }
+    
+    .resultSimple{
+      display: flex;
+      justify-content: space-evenly;
+      font-size: 1.2rem;
+      color: rgba(1, 13, 14, 0.623);
+      width: 1000px;
+      text-align: center;
+    }
+  
+    .resultSimple h1 {
+      color: black;
+      font-size: 1.8rem;
+    }
+    
+  
+    input {
+      -webkit-appearance: textfield;
+      -moz-appearance: textfield;
+      appearance: textfield;
+      width: 100%;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      background-color: white;
+      background-image: url('https://img.icons8.com/material-outlined/20/000000/double-right.png');
+      background-position: 10px 10px; 
+      background-repeat: no-repeat;
+      padding: 12px 40px 6px 40px;
+    }
+  
+    
+
+  
+  
+    .container-general .button-select{
+      flex-wrap: wrap;
+      width: 200px;
+      height: 50px;
+      font-size: 1.1rem;
+      background-color: #076164;
+      margin-right: 50px;
+      color: white;
+      font-weight:bold;
+      text-decoration: none;
+      border-radius: 15px;
+      border: solid 1px #000700;
+      text-align: center;
+      padding: 16px 18px 14px;
+    
+      -webkit-transition: all 0.1s;
+      -moz-transition: all 0.1s;
+      transition: all 0.1s;
+    
+      -webkit-box-shadow: 9px 9px 0px #000000;
+      -moz-box-shadow: 9px 9px 0px #001300;
+      box-shadow: 9px 9px 0px #000000;
+    }
+  
+    .container-general .button-select:active{
+      -webkit-box-shadow: 0px 2px 0px #094609;
+      -moz-box-shadow: 0px 2px 0px #094609;
+      box-shadow: 0px 2px 0px #094609;
+      position: relative;
+      top: 4px;
+    }
+    .buttons{
+      flex-wrap: wrap;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+    }
+  
+
+  
+    .container-general .button-form{
+      margin-left: 50px;
+      height: 50px;
+      flex-wrap: wrap;
+      font-size: 1.1rem;
+      background-color: #dfdfdf;
+      margin-right: 50px;
+      color: black;
+      font-weight:bold;
+      text-decoration: none;
+      border-radius: 15px;
+      border: solid 1px #000700;
+      text-align: center;
+      padding: 16px 18px 14px;
+    
+      -webkit-transition: all 0.1s;
+      -moz-transition: all 0.1s;
+      transition: all 0.1s;
+    
+      -webkit-box-shadow: 9px 9px 0px #000000;
+      -moz-box-shadow: 9px 9px 0px #001300;
+      box-shadow: 9px 9px 0px hsl(0, 0%, 0%);
+    }
+  
+    .container-general .button-form:active{
+      -webkit-box-shadow: 0px 2px 0px #094609;
+      -moz-box-shadow: 0px 2px 0px #094609;
+      box-shadow: 0px 2px 0px #094609;
+      position: relative;
+      top: 4px;
+    }
+
+    .personal{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        text-align: center;
+    }
+
+    .personal .topTen, .normalPersonal{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin-top: 30px;
+    }
+
+    .personal .topTen-objects, .normalPersonal-objects{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+    .name, .salary, .country{
+        text-align: center;
+        margin-right: 15px;
+        width: 32%;
+        border-radius: 15px;
+        border-style:ridge;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .nameFill{
+        background-color: rgba(8, 95, 129, 0.698);
+    }
+
+    .salaryFill{
+        background-color: #FFEDDA;
+        }
+
+    .countryFill{
+        background-color: #ffb730d5;
+    }
+
+    .nameFill, .salaryFill, .countryFill{
+        width: 110%;
+        margin-top: 2px;
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    .medianSalaries{
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    .inputCountryGeneral  {
+        background-color: #05a4af42;
+        color: black;
+        padding: 12px;
+        width: 100%;
+        border: none;
+        font-size: 20px;
+        box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+        -webkit-appearance: button;
+        appearance: button;
+        outline: none;
+      }
+
+
+
+
+    

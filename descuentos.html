@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percentage and discounts || Practice course in platzi</title>
+    <link rel="stylesheet" href="style-discount.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <img class="img-title" src="https://img.icons8.com/dotty/55/000000/discount.png"/>
+            <h1>
+                Percentage and discounts
+            </h1>
+        </div>
+        <p> This is the second Javascript practice workshop course</p>
+    </header>
+    
+    <div class="container-general">
+        <section class="priceAndDiscount">
+            <h2> Calculate price to pay of your discounted products</h2>
+    
+            <label>
+                Write the price of your product
+                <input id="InputPrice" type="number">
+            </label>
+    
+            <label>
+                Write the product discount
+                <input type="number" id="InputDiscount">
+            </label>
+    
+            <label>
+                If you have a discount coupon, please write it here
+                <input type="text" id="discountCoupon">
+            </label>
+            <button type="button" id="calculatePrice">
+                Calculate the discounted price
+            </button>
+    
+            <p id="showPrice"></p>
+        </section>
+
+        <section id="products" class="product">
+            <div class="discount">
+                <h2 id="discount-title"></h2>
+                <img src="https://images.samsung.com/is/image/samsung/p6pim/co/sm-a525mzkgltc/gallery/co-galaxy-a52-a525-377969-sm-a525mzkgltc-457546325?$720_576_PNG$" alt="">
+            </div>
+
+            <div class="colors">
+                <div class="color-black"></div>
+                <div class="color-blue"></div>
+                <div class="color-pink"></div>
+            </div>
+            
+
+            <div class="nameAndStorage">
+                <h4 id="storage">128 GB</h4>
+                <h2 id="name">Galaxy A52 128GB Azul</h2>
+            </div>
+
+            <div class="serial">
+                <h3>SM-A525MZBGLTC </h3>                
+            </div>
+            <div class="details">
+                <img src="https://img.icons8.com/material-outlined/24/4a90e2/truck.png"/>
+                <h3>Free <br> shipping</h3> 
+            </div>
+            <div class="price">
+                <h4 id="originalPrice"></h4>
+                <h4 id="save"></h4>
+            </div>
+            <h3 id="discountedPrice"></h3>
+            <h3 id="status-product"></h3>
+        </section>
+    </div>
+    
+
+    <script src="descuentos.js"></script>
+</body>
+</html>

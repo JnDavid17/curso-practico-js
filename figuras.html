@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Figuras geométricas | Curso práctico de Javascript</title>
+    <link rel="stylesheet" href="style-figuras.css">
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        <img class="img-title" src="https://icon-library.com/images/divider-icon/divider-icon-7.jpg" alt="">
+      <h1>Figuras geométricas</h1>
+      </div>
+      <p>Este es el primer taller del curso práctico de JavaScript</p>
+    </header>
+
+    <div class ="container-general">
+      <section class ="square">
+        <div class="title-square">
+          <img src="https://img.icons8.com/carbon-copy/40/000000/square.png"/>
+          <h2>Square </h2>
+        </div>
+        <form>
+          <label for="InputCuadrado"
+            > Write how long each side of your square is:
+          <input id="InputCuadrado" class="number-one" type="number" />
+          </label>
+          <div class="button-square">
+            <button type="button" id="buttonPerimetroSquare">
+              Find the perimeter
+            </button>
+            <button type="button" id="buttonAreaSquare">Find the area</button>
+          </div>
+        </form>
+      </section>
+
+      <section class ="triangle">
+        <div class="title-triangle">
+          <img src="https://img.icons8.com/dotty/40/000000/triangle-stroked.png"/>
+          <h2>Triangle</h2>
+        </div>
+        <form>
+          <label>
+            Write how long  side #1 of your triangle is:
+            <input id="InputTriangle" type="number" />
+          </label>
+          <label>
+            Write how long side #2 of your triangle is:
+            <input id="InputTriangle2" type="number" />
+          </label>
+          <label>
+            Write how long base of your triangle is:
+            <input id="InputTriangle3" type="number" />
+          </label>
+          <label>
+            Write the height of your triangle is:
+            <input id="InputTriangle4" type="number" />
+          </label>
+          <div class="button-triangle">
+            <button type="button" id="buttonPerimetroTriangle">
+              Find the perimeter
+            </button>
+            <button type="button" id="buttonAreaTriangle">Find the area</button>
+              
+          </div>
+        </form>
+      </section>
+
+
+      <section class ="triangle-iso">
+        <div class="title-triangle-iso">
+          <img src="https://img.icons8.com/dotty/40/000000/give-way.png"/>
+          <h2>Isosceles triangle</h2>
+        </div>
+        <form>
+          <label>
+            Write how long  side #1 of your triangle is:
+            <input id="InputTriangle-iso" type="number" />
+          </label>
+          <label>
+            Write how long side #2 of your triangle is:
+            <input id="InputTriangle2-iso" type="number" />
+          </label>
+          <label>
+            Write how long base of your triangle is:
+            <input id="InputTriangle3-iso" type="number" />
+          </label>
+          <div class="button-triangle-iso">
+            <button type="button" id="buttonAreaTriangle-iso">Find the area</button>
+          </div>
+        </form>
+      </section>
+
+      <section class ="circle">
+        <div class="title-circle">
+          <img src="https://img.icons8.com/dotty/40/000000/circled.png"/>
+        <h2>Circle </h2>
+        </div>
+        <form>
+          <label> 
+            Write what is the radius of your circle is:
+            <input id="InputCircle" type="number"/>
+          </label>
+          <div class="button-circle">
+            <button type="button" id="buttonPerimetroCircle">
+              Find the perimeter
+            </button>
+            <button type="button" id="buttonAreaCircle">Find the area</button>
+  
+            <button type="button" id="buttonDiametroCircle">Find the diameter</button>  
+          </div>
+        </form>
+      </section>
+
+    </div>
+    <script src="./figuras.js"></script>
+  </body>
+</html>

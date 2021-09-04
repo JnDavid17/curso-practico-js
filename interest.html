@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style-interest.css">
+  </head>
+  <header>
+    <div class="title">
+      <img
+        class="img-title"
+        src="https://img.icons8.com/dotty/55/000000/discount.png"
+      />
+      <h1>Interest</h1>
+    </div>
+    <p>This is the fifth Javascript practice workshop course</p>
+  </header>
+
+  <body>
+    <div class="container-general">
+      <div class="buttons">
+        <button id="simple" class="button-select">Simple interest</button>
+
+        <button id="compound" class="button-select">Compound interest</button>
+      </div>
+
+      <div class="forms">
+        <div id="simple-interest" class="simple-interest">
+          <form>
+            <label for="inputCapitalSimple"
+              >Write what is your capital:
+              <input id="inputCapitalSimple" type="number" />
+            </label>
+
+            <label for="inputTimeSimple"
+              >Write what is the interest time (in years):
+              <input id="inputTimeSimple" type="number" />
+            </label>
+
+            <label for="inputInterestSimple"
+              >Write what is the interest percentage (%):
+              <input id="inputInterestSimple" type="number" />
+            </label>
+
+          </form>
+          <button id="simple-button" class="button-form">Simple interest</button>
+
+          
+        </div>
+
+        <div id="compound-interest" class="compound-interest">
+            <form>
+                <label for="inputCapitalCompound"
+                  >Write what is your capital:
+                  <input id="inputCapitalCompound" type="number" />
+                </label>
+    
+                <label for="inputTimeCompound"
+                  >Write the time (in years) that you are going to leave the money:
+                  <input id="inputTimeCompound" type="number" />
+                </label>
+    
+                <label for="inputInterestCompound"
+                  >Write what is the interest percentage (%):
+                  <input id="inputInterestCompound" type="number" />
+                </label>
+              </form>
+              <button id="compound-button" class="button-form">Compound interest</button>
+
+        </div>
+
+        <div class="resultSimple" id="resultSimple">
+            <div class="resultNormal">
+                Simple interest
+                <h1 id="showResultSimple"></h1>
+            </div>
+            <div class="resultAccumulate">
+                Final capital
+                <h1 id="simpleAccumulate"></h1>
+            </div>
+        </div>
+
+        <div class="resultCompound" id="resultCompound">
+            <div class="resultNormal">
+                Compound interest
+            <h1 id="showResultCompound"> </h1>
+            </div>
+            <div class="resultAccumulate">
+                Final capital
+                <h1 id="compoundAccumulate"></h1>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="interest.js"></script>
+  </body>
+</html>

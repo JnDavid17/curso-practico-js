@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style-salary.css" />
+  </head>
+  <header>
+    <div class="title">
+      <img
+        class="img-title"
+        src="https://img.icons8.com/dotty/55/000000/discount.png"
+      />
+      <h1>Salaries</h1>
+    </div>
+    <p>This is the fifth Javascript practice workshop course</p>
+  </header>
+  <body>
+    <div class="container-general">
+      <div class="form">
+      <form onsubmit="return false">
+        <label for="inputName"
+          >Write what is your name:
+          <input id="inputName" type="text" required />
+        </label>
+
+        <label for="ID"
+          >Write what is your ID:
+          <input id="ID" type="number" required />
+        </label>
+
+        <label for="inputCountry"
+          >Write what is your country:
+          <select
+            name="countries"
+            id="inputCountry"
+            class="inputCountryGeneral"
+          >
+            <option class="colombia" value="Colombia">Colombia</option>
+            <option class="peru" value="Peru">Perú</option>
+            <option class="usa" value="Estados Unidos">Estados Unidos</option>
+            <option class="argentina" value="Argentina">Argentina</option>
+            <option class="brasil" value="Brasil">Brasil</option>
+          </select>
+        </label>
+
+        <label for="inputSalary"
+          >Write what is your salary (in Dollars):
+          <input id="inputSalary" type="number" required />
+        </label>
+        <button id="button-form-one" class="button-select">
+        Add person
+        </button>
+      </form>
+
+      <div class="form-search">
+        <label for="inputCountrySearch"
+          >Filter by countries
+          <select
+            name="countries"
+            id="inputCountrySearch"
+            class="inputCountryGeneral"
+          >
+            <option class="colombia" value="Colombia">Colombia</option>
+            <option class="peru" value="Peru">Perú</option>
+            <option class="usa" value="Estados Unidos">Estados Unidos</option>
+            <option class="argentina" value="Argentina">Argentina</option>
+            <option class="brasil" value="Brasil">Brasil</option>
+          </select>
+        </label>
+        <label for="salaryPercentage">
+          Enter the percentage of salaries will show 
+          <input id="salaryPercentage" type="number" min="1" max="100" />
+        </label>
+        <button id="showPerson" class="button-form">Show person</button>
+      </div>
+
+      </div>
+
+      <div class="personal" id="hideThis">
+        <div class="normalPersonal">
+          <h3 id="salariesPersonal"></h3>
+          <div class="normalPersonal-objects" id="prueba">
+            <div class="name" id="normalName">
+              <img
+                src="https://img.icons8.com/ios-filled/100/000000/name.png"
+              />
+
+            </div>
+
+            <div class="salary" id="normalSalary">
+              <img
+                src="https://img.icons8.com/ios-filled/100/000000/salary-male.png"
+              />
+            </div>
+
+            <div class="country" id="normalCountry">
+              <img
+                src="https://img.icons8.com/ios-filled/100/000000/country.png"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="normalMedianSalaries">
+          Normal median salaries
+          <h1 id="medianeSalaries"></h1>
+        </div>
+        
+
+        <div class="topTen">
+          <h3 id="salariesTopTen"></h3>
+          <div class="topTen-objects">
+            <div class="name" id="topName">
+              <img
+                src="https://img.icons8.com/ios-filled/100/000000/name.png"
+              />
+            </div>
+
+            <div class="salary" id="topSalary">
+              <img
+                src="https://img.icons8.com/ios-filled/100/000000/salary-male.png"
+              />
+            </div>
+
+            <div class="country" id="topCountry">
+              <img
+                src="https://img.icons8.com/ios-filled/100/000000/country.png"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="normalMedianSalaries">
+          Top 10 median salaries
+          <h1 id="topMedianeSalaries"></h1>
+        </div>
+      </div>
+    </div>
+
+    <script src="salary.js"></script>
+    <script src="analysis.js"></script>
+  </body>
+</html>
